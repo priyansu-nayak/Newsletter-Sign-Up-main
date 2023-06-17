@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Robot", sans-serif;
+}
+body {
+  background-color: hsl(235, 18%, 26%);
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: white;
+  width: 82%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 30px;
+}
+
+.side-image {
+  padding: 20px 20px 20px 0;
+}
+
+.heading {
+  position: relative;
+  top: 83px;
+  left: 57px;
+  font-size: 4rem;
+}
+
+.content {
+  font-size: 16px;
+  font-weight: 400;
+  width: 81%;
+  position: relative;
+  top: 100px;
+  left: 63px;
+  padding-top: 10px;
+}
+
+.content p,
+.content li {
+  padding-bottom: 18px;
+}
+.content ul {
+  padding-bottom: 20px;
+  list-style-type: none;
+}
+
+.content img {
+  padding-right: 18px;
+}
+.content li {
+  display: inline-block;
+}
+
+.content label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: block;
+  padding-bottom: 10px;
+}
+.content input {
+  padding-left: 25px;
+  border-radius: 8px;
+  width: 90%;
+  height: 50px;
+  display: block;
+  border: 1px solid hsl(240, 2%, 76%);
+}
+
+.content input:focus {
+  outline: 1px solid hsl(0, 0%, 2%);
+}
+
+.submit-button {
+  background-color: hsl(232, 31%, 20%);
+  color: white;
+  font-weight: bold;
+
+  width: 90%;
+  height: 52px;
+  border-style: none;
+  border-radius: 8px;
+  margin: 25px 0 0 0;
+  font-size: 0.9rem;
+  cursor:pointer;
+}
