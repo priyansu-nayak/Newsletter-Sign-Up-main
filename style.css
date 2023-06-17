@@ -96,6 +96,49 @@ body {
 .submit-button:hover {
   /* background-color: aliceblue; */
   background: linear-gradient(to right, red, orange);
+}
+
+.container2 {
+  background-color: white;
+  width: 35%;
+  margin: 0 auto;
+  position: relative;
+  top: 110px;
+  border-radius: 29px;
+  height: 380px;
   
+  
+}
+.container2 h1 {
+  margin:0 auto;
+  position:relative;
+  top:45px;
+  left:12px;
+  width: 80%;
+  font-size:2.7rem;
+}
+
+.container2 img {
+width:47px;
+position:relative;
+top:30px;
+left:43px;
+}
+
+.container2 p{
+
+  position:relative;
+  top:61px;
+  text-align:left;
+  left:54px;
+  width:80%;
+  font-size:0.85rem; 
+}
+
+.btn-success{
+  position:relative;
+  top:58px;
+  left:46px;
+  width:78%;
 
 }
