@@ -90,5 +90,12 @@ body {
   border-radius: 8px;
   margin: 25px 0 0 0;
   font-size: 0.9rem;
-  cursor:pointer;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  /* background-color: aliceblue; */
+  background: linear-gradient(to right, red, orange);
+  
+
 }
